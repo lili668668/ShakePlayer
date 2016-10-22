@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ballfish.ShakePlayer.MusicChooseActivity">
+
+    <include
+        layout="@layout/music_choose_layout" />
+
+    <include
+        layout="@layout/music_head" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/file_choose"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/button"
+        android:id="@+id/music_file_choose"
+        android:padding="@dimen/bt_padding"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/record"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/button"
+        android:id="@+id/music_record"
+        android:padding="@dimen/bt_padding"
+        android:layout_marginRight="@dimen/txt_margin_horizontal"
+        android:layout_alignTop="@+id/music_file_choose"
+        android:layout_toLeftOf="@+id/music_file_choose"
+        android:layout_toStartOf="@+id/music_file_choose" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/pos_bt"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/music_pos"
+        android:background="@drawable/button"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@color/colorBackgroundLight">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/choosing_picture"
+        android:layout_marginLeft="@dimen/txt_margin_horizontal"
+        android:layout_marginTop="@dimen/txt_margin_vertical"
+        android:layout_alignParentTop="true"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="test"
+        android:id="@+id/tmp_text"
+        android:maxEms="5"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginRight="@dimen/txt_margin_horizontal"
+        android:layout_marginTop="@dimen/txt_margin_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/choose_bar_color"
+        android:id="@+id/choose_bar_color"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/mascot_none"
+        android:id="@+id/mascot_none"
+        android:layout_marginBottom="@dimen/txt_margin_vertical"
+        android:layout_marginLeft="@dimen/txt_margin_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mascot_none_switch"
+        android:layout_marginBottom="@dimen/txt_margin_vertical"
+        android:layout_marginRight="@dimen/txt_margin_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/color_button"
+        android:id="@+id/color_button"
+        android:layout_below="@id/tmp_text"
+        android:layout_marginTop="@dimen/txt_margin_vertical"
+        android:layout_marginRight="@dimen/txt_margin_horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">搖動撥放器</string>
+
+    <string name="navigation_drawer_open">打開抽屜</string>
+    <string name="navigation_drawer_close">關上抽屜</string>
+
+    <string name="pos_bt">確定</string>
+    <string name="nag_bt">取消</string>
+    <string name="stop_bt">停止</string>
+    <string name="none">無</string>
+    <string name="loading">加載中</string>
+    <string name="file_choose">檔案選擇</string>
+
+    <string name="nav_music">音源選擇</string>
+    <string name="nav_screen">螢幕選擇</string>
+    <string name="nav_set">其他設定</string>
+    <string name="nav_team">開發團隊</string>
+
+    <string name="music_alert_title">現在音源:</string>
+    <string name="music_choose_sound">目前選擇音源:</string>
+    <string name="record">錄音</string>
+    <string name="choose_title">音檔選擇</string>
+    <string name="recorder_alert_messages">請輸入檔名:</string>
+    <string name="recorder_pos_bt">開始錄音</string>
+
+    <string name="delete_file_bt">刪除檔案</string>
+    <string name="delete_from_list_bt">從列表上刪除紀錄</string>
+    <string name="rename_bt">重新命名</string>
+
+    <string name="screen_alert_title">現在圖片:</string>
+    <string name="choosing_picture">選擇的圖片:</string>
+
+    <string-array name="mascot_names">
+        <item>兔子先生</item>
+        <item>抹茶犬</item>
+        <item>勇者犬</item>
+        <item>櫻花犬</item>
+        <item>虎貓君</item>
+        <item>雪狐</item>
+        <item>財神猴</item>
+        <item>加油</item>
+        <item>Go Go</item>
+        <item>Cheer</item>
+        <item>I love U</item>
+        <item>I love you</item>
+    </string-array>
+
+    <string-array name="music_basic_items">
+        <item>bit808</item>
+        <item>femalvox</item>
+        <item>hatz</item>
+        <item>horn</item>
+        <item>kick</item>
+        <item>malevox</item>
+        <item>monstervox</item>
+        <item>pitchvox</item>
+        <item>snare_clap</item>
+    </string-array>
+
+    <string name="file_nonsupport">檔案格式不支援</string>
+    <string name="file_unexist">檔案不存在</string>
+    <string name="file_two">檔案只能擇一</string>
+    <string name="file_zero">沒有選擇檔案</string>
+    <string name="file_fail">檔案選擇失敗</string>
+
+    <string name="noti_title">手機搖搖樂背景服務已啟動</string>
+    <string name="noti_text">若要關閉，請點擊</string>
+
+    <string name="set_switch_background">背景播放</string>
+    <string name="set_switch_keepon">螢幕保持恆亮</string>
+
+    <string name="choose_bar_color">選擇底色</string>
+    <string name="mascot_none">顯示圖案</string>
+    <string name="choose_color_group">選擇色組</string>
+    <string name="choose_one_color">選擇單色</string>
+</resources>

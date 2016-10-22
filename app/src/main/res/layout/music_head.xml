@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/colorBackgroundLight"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/music_choose_sound"
+        android:id="@+id/music_choose_sound"
+        android:layout_marginTop="@dimen/txt_margin_vertical"
+        android:layout_marginLeft="@dimen/txt_margin_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/music_choose_name"
+        android:text="test"
+        android:layout_marginTop="@dimen/txt_margin_vertical"
+        android:layout_marginLeft="@dimen/txt_margin_horizontal"
+        android:layout_alignParentLeft="true" />
+</LinearLayout>
