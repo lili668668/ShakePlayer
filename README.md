@@ -8,6 +8,6 @@ My first app . It is a product after my learning
 - It can replace fluorescent rods.
 
 ## Todo list
-- [] Fix the mistake of play icon.
-- [] Fix the problem when choose a picture.
-- [] Put it on Google Play.
+-[] Fix the mistake of play icon.
+-[] Fix the problem when choose a picture.
+-[] Put it on Google Play.
